@@ -101,6 +101,10 @@ form legend {
     margin-bottom: 24px;
 }
 
+.grow1 {
+    flex-grow: 2;
+}
+
 .field-group {
     display: flex;
 }
@@ -115,7 +119,7 @@ input, select{
 }
 
 .field + .field {
-    margin-left: 50px;
+    margin-left: 18px;
 }
 
 main h1 {
