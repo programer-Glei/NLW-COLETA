@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro Coleta</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page-point">
+        <header>
+            <img src="img/logo.svg" alt="Logomarca">
+            <a href="index.html">
+                <span id="create"></span>
+                Voltar para a home</a>
+        </header>
+        <form>
+            <h1>Cadastro do ponto de coleta</h1>
+            <fieldset>
+                <legend><h2>Dados da Entidade</h2></legend>
+                <div class="field">
+                    <label for="nome">Nome da entidade</label>
+                    <input type="text" name="nome">
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="end">Endereço</label>
+                        <input type="text" name="end">
+                    </div>
+                    <div class="field">
+                        <label for="num">Número/Complemento</label>
+                        <input type="text" name="num">
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="estado">Estado</label>
+                        <select name="uf">
+                            <option value="">Selecione o Estado</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="city">Cidade</label>
+                        <select name="cidade">
+                            <option value="">Selecione a Cidade</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
