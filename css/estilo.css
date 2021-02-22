@@ -94,6 +94,35 @@ form legend {
     margin-bottom: 45px;
 }
 
+.itens-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.itens-grid li {
+    background: #f5f5f5;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    height: 180px;
+    padding: 32px 24px 16px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+.itens-grid span {
+    margin-top: 12px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+}
+
 .field {
     flex: 1;
     display: flex;
@@ -145,6 +174,20 @@ main button {
     transition: 400ms;
     font-weight: bold;
     color: white;
+}
+
+form button {
+    margin-top: 48px;
+    width: 280px;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    border: none;
+    background: var(--primary-color);
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+    text-align: center;
 }
 
 main button:hover {
