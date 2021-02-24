@@ -32,3 +32,21 @@ function pegarCidades(event){
 
 
 document.querySelector("select[name=uf]").addEventListener("change", pegarCidades)
+
+// itens de coleta
+
+const itensToCollet = document.querySelectorAll(".itens-grid li")
+
+for(const item of itensToCollet){
+    item.addEventListener("click",handleSelectedItem)
+}
+
+function handleSelectedItem(event){
+    // adicionar ou remover uma classe com javascript
+    const itemLi = event.target
+
+    itemLi.classList.toggle("selected")
+    console.log("cheguei aqui")
+    const itemId = itemLi.dataset.id
+
+}
