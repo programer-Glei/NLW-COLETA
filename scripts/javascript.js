@@ -50,3 +50,4 @@ function handleSelectedItem(event){
     const itemId = itemLi.dataset.id
 
 }
+

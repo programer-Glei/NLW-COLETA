@@ -78,7 +78,7 @@ header a span {
     justify-content: center;
 }
 
-form {
+#page-point form {
     background: white;
     padding: 64px;
     margin: 48px auto;
@@ -147,7 +147,7 @@ form legend {
     display: flex;
 }
 
-input, select{
+#page-point input, select{
     background: grey;
     color: white;
     padding: 18px 24px;
@@ -185,7 +185,7 @@ main button {
     color: white;
 }
 
-form button {
+#page-point form button {
     margin-top: 48px;
     width: 280px;
     max-width: 360px;
